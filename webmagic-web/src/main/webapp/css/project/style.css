@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* 科研项目 */
+.project-container .level-module {
+}
+.project-container .level-module>header {
+  padding-bottom: 1em;
+  color: #015db2;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.25em;
+}
+.project-container .level-module .project-list {
+  margin-bottom: 4em;
+}
+.project-container .level-module .project-list>.project-panel{
+  float: left;
+  width: 46%;
+  height: 150px;
+  margin-top: 1.875em;
+  padding-bottom: 1.625em;
+  border-bottom: 1px dotted #ddd;
+}
+.project-container .level-module .project-list>.project-panel:nth-child(2n) {
+  margin-left: 4%;
+}
+.project-container .level-module .project-list>.project-panel:nth-child(2n+1) {
+  margin-right: 4%;
+}
+.level-module .project-list>.project-panel>.p-title {
+  font-size: 1.125em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  color: #222222;
+}
+.level-module .project-list>.project-panel{
+  color: #666;
+}
+.level-module .project-list>.project-panel>p.intro {
+  height: 3em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.level-module .project-list>.project-panel>.time{
+
+}
+.co-enterprise>header {
+  margin-bottom: 1.875em;
+  text-align: center;
+  color: #222;
+}
+
+.co-enterprise>header{
+  font-size: 1.25em;
+}
+.co-enterprise table.enterprise{
+  border: 0;
+}
+.co-enterprise .enterprise>tbody>tr{
+}
+.co-enterprise .enterprise>tbody>tr>td {
+  padding: 0;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.co-enterprise .enterprise>tbody>tr>td:nth-child(8n){
+  border-right: 0;
+}
+.co-enterprise .enterprise>tbody>tr:last-child>td {
+  border-bottom: 0;
+}
+.co-enterprise .enterprise>tbody>tr>td>img {
+  width: 100%;
+  height: auto;
+}
+.co-enterprise .enterprise>tbody>tr>td{
+  width: 149px;
+}
+
+
+

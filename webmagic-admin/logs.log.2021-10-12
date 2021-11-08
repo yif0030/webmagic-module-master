@@ -1,0 +1,2 @@
+[DF]2021-10-12 00:53:42,589[INFO] org.springframework.context.support.AbstractApplicationContext.doClose(993) - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Oct 11 17:37:41 CST 2021]; parent: Root WebApplicationContext;
+[DF]2021-10-12 00:53:42,603[INFO] org.springframework.context.support.AbstractApplicationContext.doClose(993) - Closing Root WebApplicationContext: startup date [Mon Oct 11 17:38:28 CST 2021]; root of context hierarchy;

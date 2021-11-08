@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 论文著作 */
+.thesis-container .thesis-list {
+}
+.thesis-container .thesis-list>ul{
+  margin-bottom: 2em;
+  padding-left: 1em;
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+}
+.thesis-container .thesis-list>ul>li{
+  padding-bottom: 1em;
+  color: #222;
+  line-height: 1.5;
+}
+
+.thesis-container .thesis-list>ul>li>.oper {
+  margin-left: 0.5em;
+}
+.thesis-container .thesis-list>ul>li>.oper>a{
+  color: #015db2;
+}
+

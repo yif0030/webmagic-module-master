@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 团队成员 */
+.member-container .member-panel {
+  float: left;
+  width: 30%;
+  border-bottom: 1px solid #eaeaea;
+}
+.member-container .member-panel{
+  margin-right: 5%;
+  margin-bottom: 2em;
+}
+.member-container .member-panel:nth-child(3n + 3){
+  margin-right: 0;
+}
+.member-container .member-panel .avatar {
+  float: left;
+  width: 8em;
+  height: 8em;
+}
+.member-panel .avatar>img {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.member-container .member-panel .member-info{
+  height: 9.5em;
+  margin-left: 8em;
+  padding-left: 1.5em;
+  padding-bottom: 1.5em;
+  line-height: 1.2;
+  overflow: hidden;
+}
+.member-panel .member-info>.name{
+  margin-bottom: 0.5em;
+  font-size: 1.375em;
+  color: #015db2;
+}
+.member-panel .member-info>.research-area{
+  color: #444;
+  font-size: 0.875em;
+  max-height: 4em;
+  overflow: hidden;
+}
+.member-panel .member-info>.research-area>span{
+  display: block;
+  margin-bottom: 0.5em;
+}
+.member-panel .member-info>.academy {
+  margin-top: 1em;
+  color: #222;
+  font-size: 0.875em;
+}
+.footer{
+  margin-top: 0;
+}

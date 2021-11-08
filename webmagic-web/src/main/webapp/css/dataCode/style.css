@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* 数据与代码 */
+
+.introduction {
+  margin-bottom: 3.75em;
+}
+.introduction>p {
+  font-size: 1em;
+  color: #222222;
+  line-height: 1.5em;
+}
+.datacode-container .introduction>.content {
+  line-height: 1.5;
+  color: #333;
+}
+.datacode-container .datacode-list {
+  margin-top: 0.625em;
+}
+.datacode-container .datacode-list>ul{
+}
+.datacode-container .datacode-list>ul>li:first-child{
+  width: 80%;
+}
+.datacode-container .datacode-list>ul {
+  padding-left: 2em;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+}
+.datacode-container .datacode-list>ul>li{
+  float: left;
+  padding: 1.625em 0;
+  color: #222;
+  line-height: 1.5;
+}
+.datacode-container .datacode-list>ul>li:last-child{
+  float: right;
+  list-style: none;
+}
+
+.datacode-container .datacode-list>ul>li>a {
+  color: #015db2;
+}
+.datacode-container .datacode-list>ul>li .count {
+  margin-right: 0.5em;
+  color: #999;
+}
+.datacode-container .datacode-list>ul>li .download {
+  padding: 0.25em 0.5em;
+  background: #265BAC;
+  color: #fff;
+  cursor: pointer;
+}
+.datacode-container .datacode-info {
+  margin-top: 3.125em;
+}
+.datacode-container .datacode-info>header {
+  padding-bottom: 16px;
+  color: #015db2;
+  font-size: 1.25em;
+  border-bottom: 1px solid #ddd;
+}
+
+
