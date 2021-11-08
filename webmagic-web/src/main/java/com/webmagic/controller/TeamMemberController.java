@@ -36,5 +36,4 @@ public class TeamMemberController extends BaseController {
 		mv.addObject(ENTITY, wc);
 		return mv;
 	}
-	//test
 }
