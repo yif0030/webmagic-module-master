@@ -8,6 +8,7 @@
   <title>webmagic</title>
   </head>
   <body>
-    webmagictest2
+    webmagic
+  test2
   </body>
 </html>
