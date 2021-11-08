@@ -9,6 +9,5 @@
   </head>
   <body>
     webmagic
-  test 2
   </body>
 </html>
